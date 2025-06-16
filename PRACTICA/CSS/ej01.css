@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(227, 208, 149); /* Color 2 */
+    color: rgb(14, 33, 72);         /* Color 3 */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: rgb(72, 58, 160);  /* Color 1 */
+    color: rgb(227, 208, 149);     /* Color 2 */
+    padding: 32px 0 16px 0;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin-bottom: 8px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+header h5 {
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(72, 58, 160); /* Color 1 */
+    margin: 16px 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #fff8e1;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(14,33,72,0.08);
+    padding: 24px 32px;
+}
+
+section {
+    margin-bottom: 32px;
+    padding: 16px 0;
+}
+
+section h1, section h2 {
+    color: rgb(72, 58, 160); /* Color 1 */
+    margin-bottom: 12px;
+}
+
+ol, ul {
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+
+a {
+    color: rgb(72, 58, 160); /* Color 1 */
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: rgb(121, 101, 193); /* Color 4 */
+}
+
+strong, b {
+    color: rgb(72, 58, 160); /* Color 1 */
+}
+
+/* Ejercicio 1: Párrafos estilizados */
+.A ol {
+    margin-top: 8px;
+}
+
+.A ol li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.A ol li:nth-child(1) {
+    background: yellow;
+    color: rgb(72, 58, 160); /* Color 1 */
+    width: 300px;
+    padding: 40px;
+    margin: 10px 20px;
+    border: 2px solid rgb(14, 33, 72); /* Color 3 */
+    border-radius: 8px;
+}
+
+.A ol li:nth-child(2) {
+    background: #b6fcb6;
+    color: #8b0000;
+    width: 400px;
+    padding: 10px 30px;
+    margin: 10px auto;
+    border: 2px solid #888;
+    border-radius: 8px;
+    display: block;
+}
+
+.A ol li:nth-child(3) {
+    background: #b3d8fc;
+    color: #111;
+    width: 50%;
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid #8B4513;
+    border-radius: 8px;
+    display: block;
+}

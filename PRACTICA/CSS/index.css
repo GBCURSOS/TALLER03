@@ -1,0 +1,144 @@
+/* 
+Paleta de colores:
+Color 1 (Principal/acento):     rgb(72, 58, 160)
+Color 2 (Fondo principal):      rgb(227, 208, 149)
+Color 3 (Texto principal):      rgb(14, 33, 72)
+Color 4 (Detalles/hover):       rgb(121, 101, 193)
+*/
+
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(227, 208, 149); /* Color 2 */
+    color: rgb(14, 33, 72);         /* Color 3 */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: rgb(72, 58, 160);  /* Color 1 */
+    color: rgb(227, 208, 149);     /* Color 2 */
+    padding: 32px 0 16px 0;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin-bottom: 8px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+header h5 {
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(72, 58, 160); /* Color 1 */
+}
+
+main {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #fff8e1;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(14,33,72,0.08);
+    padding: 24px 32px;
+}
+
+section {
+    margin-bottom: 12px;
+    padding: 16px 0;
+}
+
+section h1, section h2 {
+    color: rgb(72, 58, 160); /* Color 1 */
+    margin-bottom: 12px;
+}
+
+ol, ul {
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+
+a {
+    color: rgb(72, 58, 160); /* Color 1 */
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: rgb(121, 101, 193); /* Color 4 */
+}
+
+strong, b {
+    color: rgb(72, 58, 160); /* Color 1 */
+}
+
+
+/* Tabla de atajos */
+.atajoTeclado table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.atajoTeclado th, .atajoTeclado td {
+    border: 1.5px solid rgb(72, 58, 160); /* Color 1 */
+    padding: 10px 8px;
+    text-align: left;
+}
+
+.atajoTeclado th {
+    background: rgb(72, 58, 160); /* Color 1 */
+    color: rgb(227, 208, 149);    /* Color 2 */
+}
+
+.atajoTeclado tr:nth-child(even) td {
+    background: rgb(227, 208, 149, 0.3); /* Color 2, más claro */
+}
+
+/* Footer */
+footer.piePagina {
+    background: rgb(72, 58, 160); /* Color 1 */
+    color: rgb(227, 208, 149);    /* Color 2 */
+    /* text-align: center; */
+    padding: 24px 0 12px 0;
+    border-top: 4px solid rgb(121, 101, 193); /* Color 4 */
+    font-size: 1rem;
+}
+
+footer.piePagina a {
+    color: rgb(227, 208, 149); /* Color 2 */
+    text-decoration: underline;
+}
+
+footer.piePagina a:hover {
+    color: rgb(121, 101, 193); /* Color 4 */
+}
+
+footer.piePagina ul {
+    list-style: none;
+    margin-top: 12px;
+}
+
+footer.piePagina li {
+    margin-bottom: 6px;
+}
