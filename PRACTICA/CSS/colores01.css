@@ -1,0 +1,103 @@
+:root {
+    --color-dominante: #3C552D;
+    --color-secundario: #CA7373;
+    --color-acento: #D7B26D;
+    --color-fondo: #EEE2B5;
+    --color-texto: #2C3E50;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-dominante);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+a{
+    color:inherit;
+}
+
+.section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.palette-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.color-box {
+    flex: 1 1 200px;
+    min-height: 80px;
+    border-radius: 8px;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.criteria {
+    background-color: white;
+    border-left: 4px solid var(--color-dominante);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.example-section {
+    background-color: var(--color-fondo);
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.example-header {
+    background-color: var(--color-dominante);
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.example-button-main {
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.example-button-accent {
+    background-color: var(--color-acento);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+footer {
+    background-color: var(--color-dominante);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}

@@ -119,10 +119,13 @@ strong, b {
 footer.piePagina {
     background: rgb(72, 58, 160); /* Color 1 */
     color: rgb(227, 208, 149);    /* Color 2 */
-    /* text-align: center; */
-    padding: 24px 0 12px 0;
+    padding: 24px 10 12px 10;
     border-top: 4px solid rgb(121, 101, 193); /* Color 4 */
     font-size: 1rem;
+}
+
+footer.piePagina>p{
+    text-align: center;
 }
 
 footer.piePagina a {
@@ -141,4 +144,46 @@ footer.piePagina ul {
 
 footer.piePagina li {
     margin-bottom: 6px;
+}
+
+/* Tabla de modelos de color y paleta */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(14,33,72,0.08);
+    font-size: 1rem;
+}
+
+.tabla th, .tabla td {
+    padding: 14px 12px;
+    text-align: left;
+}
+
+.tabla th {
+    background: rgb(72, 58, 160); /* Color 1 */
+    color: rgb(227, 208, 149);    /* Color 2 */
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 3px solid rgb(121, 101, 193); /* Color 4 */
+}
+
+.tabla td {
+    color: rgb(14, 33, 72);       /* Color 3 */
+    border-bottom: 1px solid rgb(227, 208, 149, 0.7); /* Color 2 */
+}
+
+.tabla tr:nth-child(even) td {
+    background: rgb(227, 208, 149, 0.18); /* Color 2, suave */
+}
+
+.tabla tr:last-child td {
+    border-bottom: none;
+}
+
+.tabla {
+    border: 2px solid rgb(72, 58, 160); /* Color 1 */
 }
